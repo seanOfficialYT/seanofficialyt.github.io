@@ -171,8 +171,9 @@
     }
 
 .home {
-    position: center;
-    top: 0px;
+    position: fixed;
+    left: 480px;
+    top: 3px;
     border: none;
     font-size: 45px;
     color: black;
@@ -184,9 +185,248 @@
         cursor: pointer;
     }
 
-    p {
-        color: azure;
+    .text {
         position: fixed;
-        top: 80px;
-        left: 20px;
+        left: 50px;
+        top: 100px;
+        color: azure;
+    }
+
+    .gearpage2 {
+        position: fixed;
+        left: 1150px;
+        top: 600px;
+        border: dotted;
+        font-size: 20px;
+        color: black;
+    }
+
+    .gearpage2:hover {
+        cursor: pointer;
+    }
+
+.gearpage1 {
+    position: fixed;
+    left: 50px;
+    top: 600px;
+    border: dotted;
+    font-size: 20px;
+    color: black;
+}
+
+    .gearpage1:hover {
+        cursor: pointer;
+    }
+
+    .rr24_wrap {
+        position: fixed;
+        left: 25px;
+        top: 150px;
+        height: 250px;
+        width: 185px;
+    }
+
+.rr24des {
+    position: fixed;
+    left: 35px;
+    top: 150px;
+    max-width: 150px;
+    max-height: 30px;
+    color: azure;
+    background: fixed;
+    background-color: rgb(128 128 128 / 0.35);
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.rr24_wrap:hover .rr24des {
+    visibility: visible;
+    opacity: 1;
+    transition: ease-in 0.3s;
+    left: 155px;
+    top: 150px;
+    height: 400px;
+    width: 320px;
+}
+   
+.rr24 {
+    position: fixed;
+    left: 25px;
+    top: 150px;
+    height: 250px;
+    width: 185px;
+}
+
+    .rr24:hover {
+        transition: ease-in 0.3s;
+        left: 25px;
+        top: 150px;
+        height: 400px;
+        width: 300px;
+        cursor: pointer;
+    }
+
+.ltdsn200des {
+    position: fixed;
+    left: 55px;
+    top: 150px;
+    max-width: 150px;
+    max-height: 30px;
+    color: azure;
+    background: fixed;
+    background-color: rgb(128 128 128 / 0.35);
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.ltdsn200_wrap:hover .ltdsn200des {
+    visibility: visible;
+    opacity: 1;
+    transition: ease-in 0.3s;
+    left: 445px;
+    top: 150px;
+    height: 500px;
+    width: 400px;
+}
+
+.ltdsn200 {
+    position: fixed;
+    left: 350px;
+    top: 150px;
+    height: 250px;
+    width: 165px;
+}
+
+    .ltdsn200:hover {
+        transition: ease-in 0.3s;
+        left: 350px;
+        top: 150px;
+        height: 400px;
+        width: 265px;
+        cursor: pointer;
+    }
+
+.frankensteindes {
+    position: fixed;
+    left: 75px;
+    top: 150px;
+    max-width: 180px;
+    max-height: 30px;
+    color: azure;
+    background: fixed;
+    background-color: rgb(128 128 128 / 0.35);
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.frankenstein_wrap:hover .frankensteindes {
+    visibility: visible;
+    opacity: 1;
+    transition: ease-in 0.3s;
+    left: 705px;
+    top: 150px;
+    height: 500px;
+    width: 400px;
+}
+
+.frankensteinguitar {
+    position: fixed;
+    left: 640px;
+    top: 150px;
+    height: 250px;
+    width: 165px;
+}
+
+    .frankensteinguitar:hover {
+        transition: ease-in 0.3s;
+        left: 640px;
+        top: 150px;
+        height: 400px;
+        width: 265px;
+        cursor: unset;
+    }
+
+.michaelvdes {
+    position: fixed;
+    left: 75px;
+    top: 150px;
+    max-width: 200px;
+    max-height: 50px;
+    color: azure;
+    background: fixed;
+    background-color: rgb(128 128 128 / 0.35);
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.michaelv_wrap:hover .michaelvdes {
+    visibility: visible;
+    opacity: 1;
+    transition: ease-in 0.3s;
+    left: 960px;
+    top: 150px;
+    height: 500px;
+    width: 400px;
+}
+
+.michaelschenker {
+    position: fixed;
+    left: 930px;
+    top: 150px;
+    height: 250px;
+    width: 165px;
+}
+
+    .michaelschenker:hover {
+        transition: ease-in 0.3s;
+        left: 930px;
+        top: 150px;
+        height: 400px;
+        width: 265px;
+        cursor: pointer;
+    }
+
+.mikrodes {
+    position: fixed;
+    left: 75px;
+    top: 150px;
+    max-width: 200px;
+    max-height: 50px;
+    color: azure;
+    background: fixed;
+    background-color: rgb(128 128 128 / 0.35);
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.giomikro_wrap:hover .mikrodes {
+    visibility: visible;
+    opacity: 1;
+    transition: ease-in 0.3s;
+    left: 25px;
+    top: 150px;
+    height: 500px;
+    width: 400px;
+}
+
+.giomikro {
+    position: fixed;
+    left: 25px;
+    top: 150px;
+    height: 250px;
+    width: 165px;
+}
+
+    .giomikro:hover {
+        transition: ease-in 0.3s;
+        left: 25px;
+        top: 150px;
+        height: 400px;
+        width: 265px;
+        cursor: pointer;
     }

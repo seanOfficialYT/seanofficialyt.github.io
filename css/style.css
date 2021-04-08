@@ -171,8 +171,9 @@
     }
 
     .home {
-        position: center;
-        top: 0px;
+        position: fixed;
+        left: 480px;
+        top: 3px;
         border: none;
         font-size: 45px;
         color: black;
